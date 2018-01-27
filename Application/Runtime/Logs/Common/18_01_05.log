@@ -1,0 +1,290 @@
+[ 2018-01-05T16:38:31+08:00 ] 127.0.0.1 /DataBase/Application/Home/View/Index/__PUBLIC__/js/basic.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001618s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-05T16:38:38+08:00 ] ::1 /DataBase/Application/Home/View/Index/__PUBLIC__/js/jquery-2.1.0-min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002926s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-05T16:38:38+08:00 ] ::1 /DataBase/Application/Home/View/Index/__PUBLIC__/css/basic.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002919s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-05T16:38:38+08:00 ] ::1 /DataBase/Application/Home/View/Index/__PUBLIC__/img/banner.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+ERR: 无法加载模块:Application
+
+
+
+[ 2018-01-05T16:38:38+08:00 ] ::1 /DataBase/Application/Home/View/Index/__PUBLIC__/js/basic.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-05T16:38:38+08:00 ] ::1 /DataBase/Application/Home/View/Index/__PUBLIC__/css/basic.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-05T16:38:38+08:00 ] ::1 /DataBase/Application/Home/View/Index/__PUBLIC__/img/banner.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-05T16:38:38+08:00 ] ::1 /DataBase/Application/Home/View/Index/__PUBLIC__/img/head_icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+ERR: 无法加载模块:Application
+
+[ 2018-01-05T16:38:54+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T16:39:05+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T16:41:22+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T16:43:04+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T16:45:14+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T16:45:29+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T16:46:54+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T16:48:21+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T16:51:01+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T16:52:29+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T16:53:43+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T16:55:05+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T16:55:07+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T16:55:15+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T16:55:33+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T16:55:48+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T16:55:59+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:01:09+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:01:19+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:01:33+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:02:41+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:04:12+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:04:25+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:04:51+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:06:12+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:06:22+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:06:52+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:07:14+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:07:27+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:08:03+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:08:22+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:08:26+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:08:27+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:08:55+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:09:08+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:09:09+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:09:17+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T17:09:27+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T18:07:14+08:00 ] ::1 /DataBase/php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+ERR: 无法加载模块:Php
+
+[ 2018-01-05T18:25:10+08:00 ] ::1 /DataBase/get_reward
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+ERR: 无法加载模块:Get_reward
+

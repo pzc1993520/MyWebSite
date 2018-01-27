@@ -1,0 +1,1380 @@
+[ 2018-01-21T17:24:03+08:00 ] ::1 /Database/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001755s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined variable: user_rank E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2018-01-21T17:24:04+08:00 ] ::1 /DataBase/index.php/Admin/Index/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `goods` LIMIT 5   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\IndexController.class.php on line 16 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `events` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 129 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 134 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 136 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 129 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 134 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 136 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 129 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 134 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 136 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 129 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 131 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 134 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2018-01-21T17:25:39+08:00 ] ::1 /DataBase/index.php/Admin/Event/modify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` ORDER BY create_time LIMIT 0,12   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\EventController.class.php on line 38 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 32 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 32 行.
+NOTIC: [8] Use of undefined constant good_id - assumed 'good_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 36 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 36 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 43 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 53 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 53 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 58 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 58 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 63 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001279s ]
+
+[ 2018-01-21T17:25:40+08:00 ] ::1 /DataBase/index.php/Admin/Event/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `events` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `events` ORDER BY create_time LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT `good_name`,`good_thumb` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `good_name`,`good_thumb` FROM `goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\EventController.class.php on line 18 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 92 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 94 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 98 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 102 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 102 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 102 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 106 行.
+NOTIC: [8] Use of undefined constant get_user_id - assumed 'get_user_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 107 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 108 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 110 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 111 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 44 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 46 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 50 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 58 行.
+NOTIC: [8] Use of undefined constant get_user_id - assumed 'get_user_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 59 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 60 行.
+NOTIC: [8] A non well formed numeric value encountered E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2018-01-21T17:25:44+08:00 ] ::1 /DataBase/index.php/Admin/Event/modify/event_id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `events` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A non well formed numeric value encountered E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\EventController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0317s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `goods` ORDER BY create_time LIMIT 0,12   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\EventController.class.php on line 38 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 32 行.
+NOTIC: [8] Use of undefined constant good_id - assumed 'good_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 36 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 43 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 53 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 58 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2018-01-21T17:25:54+08:00 ] ::1 /DataBase/index.php/Admin/Event/run_modify/event_id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0089s ]
+NOTIC: [8] Undefined index: validate E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `events` SET `good_id`='1',`amount`='1000',`coupon_num`='123456789',`remain_time`='1516550400',`update_time`='1516526754' WHERE `id` = 4 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001213s ]
+
+[ 2018-01-21T17:25:55+08:00 ] ::1 /DataBase/index.php/Admin/Event/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `events` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `events` ORDER BY create_time LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0062s ]
+SQL: SELECT `good_name`,`good_thumb` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `good_name`,`good_thumb` FROM `goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\EventController.class.php on line 18 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 92 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 94 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 98 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 102 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 102 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 102 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 106 行.
+NOTIC: [8] Use of undefined constant get_user_id - assumed 'get_user_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 107 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 108 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 110 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 111 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 44 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 46 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 50 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 58 行.
+NOTIC: [8] Use of undefined constant get_user_id - assumed 'get_user_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 59 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2018-01-21T17:26:47+08:00 ] ::1 /DataBase/index.php/Admin/Event/modify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` ORDER BY create_time LIMIT 0,12   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\EventController.class.php on line 38 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 32 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 32 行.
+NOTIC: [8] Use of undefined constant good_id - assumed 'good_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 36 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 36 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 43 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 53 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 53 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 58 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 58 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 63 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2018-01-21T17:27:00+08:00 ] ::1 /DataBase/index.php/Admin/Event/run_modify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0218s ]
+NOTIC: [8] Undefined index: validate E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `events` (`good_id`,`amount`,`coupon_num`,`remain_time`) VALUES ('2','500','123456789','2018-01-22 00:00:00') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001183s ]
+
+[ 2018-01-21T17:27:01+08:00 ] ::1 /DataBase/index.php/Admin/Event/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0225s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `events` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `events` ORDER BY create_time LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0067s ]
+SQL: SELECT `good_name`,`good_thumb` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `good_name`,`good_thumb` FROM `goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `good_name`,`good_thumb` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\EventController.class.php on line 18 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 92 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 94 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 98 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 102 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 102 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 102 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 106 行.
+NOTIC: [8] Use of undefined constant get_user_id - assumed 'get_user_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 107 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 108 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 110 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 111 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 44 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 46 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 50 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 58 行.
+NOTIC: [8] Use of undefined constant get_user_id - assumed 'get_user_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 59 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 63 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 44 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 46 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 50 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 58 行.
+NOTIC: [8] Use of undefined constant get_user_id - assumed 'get_user_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 59 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 60 行.
+NOTIC: [8] A non well formed numeric value encountered E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2018-01-21T17:28:35+08:00 ] ::1 /DataBase/index.php/Admin/Event/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `events` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `events` ORDER BY create_time LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0062s ]
+SQL: SELECT `good_name`,`good_thumb` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `good_name`,`good_thumb` FROM `goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `good_name`,`good_thumb` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\EventController.class.php on line 18 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 92 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 94 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 98 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 102 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 102 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 102 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 106 行.
+NOTIC: [8] Use of undefined constant get_user_id - assumed 'get_user_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 107 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 108 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 110 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 111 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 44 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 46 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 50 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 58 行.
+NOTIC: [8] Use of undefined constant get_user_id - assumed 'get_user_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 59 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 63 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 44 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 46 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 50 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 58 行.
+NOTIC: [8] Use of undefined constant get_user_id - assumed 'get_user_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 59 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 60 行.
+NOTIC: [8] A non well formed numeric value encountered E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2018-01-21T17:28:36+08:00 ] ::1 /DataBase/index.php/Admin/Event/modify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` ORDER BY create_time LIMIT 0,12   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\EventController.class.php on line 38 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 32 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 32 行.
+NOTIC: [8] Use of undefined constant good_id - assumed 'good_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 36 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 36 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 43 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 53 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 53 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 58 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 58 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 63 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2018-01-21T17:28:44+08:00 ] ::1 /DataBase/index.php/Admin/Event/run_modify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2018-01-21T17:35:19+08:00 ] ::1 /DataBase/index.php/Admin/Event/modify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` ORDER BY create_time LIMIT 0,12   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\EventController.class.php on line 38 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 32 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 32 行.
+NOTIC: [8] Use of undefined constant good_id - assumed 'good_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 36 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 36 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 43 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 53 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 53 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 58 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 58 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 63 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2018-01-21T17:35:26+08:00 ] ::1 /DataBase/index.php/Admin/Event/run_modify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: Method name must be a string
+
+[ 2018-01-21T17:35:40+08:00 ] ::1 /DataBase/index.php/Admin/Event/modify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` ORDER BY create_time LIMIT 0,12   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\EventController.class.php on line 38 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 32 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 32 行.
+NOTIC: [8] Use of undefined constant good_id - assumed 'good_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 36 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 36 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 43 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 53 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 53 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 58 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 58 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 63 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2018-01-21T17:35:46+08:00 ] ::1 /DataBase/index.php/Admin/Event/run_modify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0087s ]
+NOTIC: [8] Undefined index: validate E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `events` (`good_id`,`amount`,`coupon_num`,`remain_time`,`update_time`,`remain`,`create_time`,`status`) VALUES ('3','123','123','1516550400','1516527346','123','1516527346','0') [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2018-01-21T17:35:48+08:00 ] ::1 /DataBase/index.php/Admin/Event/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0282s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `events` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `events` ORDER BY create_time LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0062s ]
+SQL: SELECT `good_name`,`good_thumb` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `good_name`,`good_thumb` FROM `goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `good_name`,`good_thumb` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `good_name`,`good_thumb` FROM `goods` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\EventController.class.php on line 18 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 92 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 94 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 98 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 102 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 102 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 102 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 106 行.
+NOTIC: [8] Use of undefined constant get_user_id - assumed 'get_user_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 107 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 108 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 110 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 111 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 44 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 46 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 50 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 58 行.
+NOTIC: [8] Use of undefined constant get_user_id - assumed 'get_user_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 59 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 63 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 44 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 46 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 50 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 58 行.
+NOTIC: [8] Use of undefined constant get_user_id - assumed 'get_user_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 59 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 60 行.
+NOTIC: [8] A non well formed numeric value encountered E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 63 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 44 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 46 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 50 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 58 行.
+NOTIC: [8] Use of undefined constant get_user_id - assumed 'get_user_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 59 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2018-01-21T17:35:52+08:00 ] ::1 /DataBase/index.php/Admin/Event/modify/event_id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `events` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A non well formed numeric value encountered E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\EventController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0365s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` ORDER BY create_time LIMIT 0,12   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\EventController.class.php on line 38 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 32 行.
+NOTIC: [8] Use of undefined constant good_id - assumed 'good_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 36 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 43 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 53 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 58 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001712s ]
+
+[ 2018-01-21T17:36:00+08:00 ] ::1 /DataBase/index.php/Admin/Event/run_modify/event_id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0552s ]
+NOTIC: [8] Undefined index: validate E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `events` SET `good_id`='2',`amount`='500',`coupon_num`='123456789',`remain_time`='1516550400',`update_time`='1516527360' WHERE `id` = 5 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000034s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2018-01-21T17:36:01+08:00 ] ::1 /DataBase/index.php/Admin/Event/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0324s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `events` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `events` ORDER BY create_time LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0071s ]
+SQL: SELECT `good_name`,`good_thumb` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `good_name`,`good_thumb` FROM `goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `good_name`,`good_thumb` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `good_name`,`good_thumb` FROM `goods` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\EventController.class.php on line 18 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 92 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 94 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 98 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 101 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 102 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 102 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 102 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 106 行.
+NOTIC: [8] Use of undefined constant get_user_id - assumed 'get_user_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 107 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 108 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 110 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 111 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 44 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 46 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 50 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 58 行.
+NOTIC: [8] Use of undefined constant get_user_id - assumed 'get_user_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 59 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 63 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 44 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 46 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 50 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 58 行.
+NOTIC: [8] Use of undefined constant get_user_id - assumed 'get_user_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 59 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 63 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 44 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 46 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 50 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 58 行.
+NOTIC: [8] Use of undefined constant get_user_id - assumed 'get_user_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 59 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001609s ]
+
+[ 2018-01-21T17:54:06+08:00 ] ::1 /DataBase/index.php/Admin/Event/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `events` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `events` ORDER BY create_time LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0064s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\EventController.class.php on line 18 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001270s ]
+
+[ 2018-01-21T17:54:08+08:00 ] ::1 /DataBase/index.php/Admin/Event/modify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` ORDER BY create_time LIMIT 0,12   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\EventController.class.php on line 38 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 32 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 32 行.
+NOTIC: [8] Use of undefined constant good_id - assumed 'good_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 36 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 36 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 43 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 39 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 41 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 53 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 53 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 58 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 58 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 63 行.
+NOTIC: [8] Undefined variable: event E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\889dafe94eea57f16964ed6b37c25471.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2018-01-21T17:54:22+08:00 ] ::1 /DataBase/index.php/Admin/Event/run_modify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0104s ]
+NOTIC: [8] Undefined index: validate E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `events` (`good_id`,`amount`,`coupon_num`,`remain_time`,`update_time`,`remain`,`create_time`,`status`) VALUES ('4','1500','123456789','1517328000','1516528462','1500','1516528462','0') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2018-01-21T17:54:23+08:00 ] ::1 /DataBase/index.php/Admin/Event/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0087s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `events` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `events` ORDER BY create_time LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT `good_name`,`good_thumb` FROM `goods` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\EventController.class.php on line 18 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 44 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 46 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 48 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 50 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 58 行.
+NOTIC: [8] Use of undefined constant get_user_id - assumed 'get_user_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 59 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2018-01-21T17:54:29+08:00 ] ::1 /DataBase/index.php/Admin/Good/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` ORDER BY create_time LIMIT 0,15   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\GoodController.class.php on line 14 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 43 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 45 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 49 行.
+NOTIC: [8] Use of undefined constant good_intro - assumed 'good_intro' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 50 行.
+NOTIC: [8] Use of undefined constant good_price - assumed 'good_price' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 51 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 52 行.
+NOTIC: [8] Use of undefined constant good_status - assumed 'good_status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 53 行.
+NOTIC: [8] Undefined index: good_status E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 53 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 55 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 56 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 43 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 45 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 49 行.
+NOTIC: [8] Use of undefined constant good_intro - assumed 'good_intro' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 50 行.
+NOTIC: [8] Use of undefined constant good_price - assumed 'good_price' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 51 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 52 行.
+NOTIC: [8] Use of undefined constant good_status - assumed 'good_status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 53 行.
+NOTIC: [8] Undefined index: good_status E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 53 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 55 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 56 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 43 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 45 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 47 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 49 行.
+NOTIC: [8] Use of undefined constant good_intro - assumed 'good_intro' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 50 行.
+NOTIC: [8] Use of undefined constant good_price - assumed 'good_price' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 51 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 52 行.
+NOTIC: [8] Use of undefined constant good_status - assumed 'good_status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 53 行.
+NOTIC: [8] Undefined index: good_status E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 53 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 55 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 56 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 43 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 45 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 49 行.
+NOTIC: [8] Use of undefined constant good_intro - assumed 'good_intro' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 50 行.
+NOTIC: [8] Use of undefined constant good_price - assumed 'good_price' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 51 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 52 行.
+NOTIC: [8] Use of undefined constant good_status - assumed 'good_status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 53 行.
+NOTIC: [8] Undefined index: good_status E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 53 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 55 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\0ab86f04ed1af383b4a8777bda5d9ce6.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2018-01-21T17:54:38+08:00 ] ::1 /DataBase/index.php/Admin/Index/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `goods` LIMIT 5   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\IndexController.class.php on line 16 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `events` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 129 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 134 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 136 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 129 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 134 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 136 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 129 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 134 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 136 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 129 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 131 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 134 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2018-01-21T18:24:09+08:00 ] ::1 /Database/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined variable: user_rank E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2018-01-21T18:24:09+08:00 ] ::1 /DataBase/index.php/Admin/Index/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `goods` LIMIT 5   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\IndexController.class.php on line 16 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `events` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 129 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 134 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 136 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 129 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 134 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 136 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 129 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 134 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 136 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 129 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 131 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 134 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\b396789e55b9c1c0001fb86b29923477.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001131s ]
+
+[ 2018-01-21T18:24:11+08:00 ] ::1 /DataBase/index.php/Admin/Event/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `events` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `events` ORDER BY create_time LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0068s ]
+SQL: SELECT `good_name`,`good_thumb` FROM `goods` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\UPUPW_AP7.0\htdocs\DataBase\Application\Admin\Controller\EventController.class.php on line 18 and defined E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 42 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 44 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 46 行.
+NOTIC: [8] Use of undefined constant good_thumb - assumed 'good_thumb' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 48 行.
+NOTIC: [8] Use of undefined constant good_name - assumed 'good_name' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 50 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 53 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant remain - assumed 'remain' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant amount - assumed 'amount' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 54 行.
+NOTIC: [8] Use of undefined constant coupon_num - assumed 'coupon_num' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 58 行.
+NOTIC: [8] Use of undefined constant get_user_id - assumed 'get_user_id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 59 行.
+NOTIC: [8] Use of undefined constant remain_time - assumed 'remain_time' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 60 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 62 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\UPUPW_AP7.0\htdocs\DataBase\Application\Runtime\Cache\Admin\7995e4543a85d9a97cfda17bd02138c8.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001618s ]
+

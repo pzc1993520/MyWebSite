@@ -1,0 +1,6 @@
+[ 2018-01-07T15:08:14+08:00 ] ::1 /DataBase/Application/Home/View/User/__PUBLIC__/js/basic.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:3.807547s ]
+ERR: 无法加载模块:Application
+

@@ -1,0 +1,21 @@
+*{
+	font-size:16px;
+}
+html{
+	background-color:#eb1344;
+}
+.marquee{
+	height:30px;line-height: 30px;background-color:rgba(121,6,23,0.5);color: #fff;white-space: nowrap;position:relative;overflow:hidden;
+}
+.marquee p{
+	width:100%;height:100%;text-align:left;position: absolute;top:0;left:100%;text-indent:3px;
+}
+.uk-badge-muted{
+	background-color:#333333;color:#fff;
+}
+.uk-progress-muted{
+	background-color:#ddd;
+}
+.uk-progress-bar-muted{
+	background-color:#333;
+}

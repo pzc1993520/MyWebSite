@@ -1,0 +1,12 @@
+[ 2018-01-22T14:41:46+08:00 ] ::1 /DataBase/index.php/DataBase/index.php/Home/Index/index.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+ERR: 无法加载模块:DataBase
+
+[ 2018-01-22T17:14:27+08:00 ] ::1 /DataBase/index.php/DataBase/index.php/Admin/Login/index/error/1.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:DataBase
+

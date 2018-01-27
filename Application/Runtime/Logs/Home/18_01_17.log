@@ -1,0 +1,55 @@
+[ 2018-01-17T11:14:47+08:00 ] ::1 /DataBase/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003915s ]
+SQL: SHOW COLUMNS FROM `events` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `events` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `goods` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in F:\UPUPW_AP7.0\htdocs\DataBase\Application\Home\Controller\IndexController.class.php on line 16 and defined F:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content F:\UPUPW_AP7.0\htdocs\DataBase\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004158s ]
+
+[ 2018-01-17T11:14:48+08:00 ] ::1 /DataBase/Home/Index/get_reward
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002654s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `user_nickname` FROM `user` WHERE `id` = 2 AND `user_rank` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `good_name` FROM `goods` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-17T11:15:01+08:00 ] ::1 /DataBase/Home/Index/get_reward
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003322s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `user_nickname` FROM `user` WHERE `id` = 2 AND `user_rank` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `good_name` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
